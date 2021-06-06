@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+.container {
+    margin   : 15vmax auto;
+    max-width: 700px;
+    border   : 3px solid rgb(186, 218, 186);
+}
+
+body {
+    text-align: center;
+    font-size : 1.25em;
+}
+
+.header, .footer, .main, .nav{
+    background-color: rgb(238 238 238);
+    margin: 0.5em;
+    border: 2px solid rgb(98, 182, 98);
+    border-radius: 20px;
+}
+
+.header,
+.footer {
+    padding: 1.5em 5em;
+}
+
+.content{
+    display: flex;
+}
+
+.main{
+    width: 100%;
+    padding: 5em;
+}
+.nav{
+    padding: 4em 1.25em;
+}

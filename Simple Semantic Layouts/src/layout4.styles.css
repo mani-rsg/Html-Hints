@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+.container {
+    margin          : 15vmax auto;
+    max-width       : 600px;
+    background-color: aliceblue;
+}
+
+body {
+    font-size : 1.25em;
+    text-align: center;
+}
+
+.header,
+.footer {
+    background-color: rgb(171, 224, 217);
+}
+
+.intro-copy,
+.hero-img,
+.call-to-action1,
+.call-to-action2,
+.features,
+.more-copy {
+    background-color: rgb(171, 224, 217);
+}
+
+.main>* {
+    margin: 0.5em;
+}
+
+.call-to-action1,
+.call-to-action2 {
+    background-color: rgb(214, 238, 82);
+}
+
+.header {
+    padding: 1.5em 5em;
+}
+
+.footer {
+    padding: 0.8em 5em;
+}
+
+.row {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.col {
+    /* outline: 3px solid red; */
+}
+
+.intro-copy {
+    padding: 4em;
+    width  : 67%;
+}
+
+.hero-img {
+    max-width: 100%;
+    padding  : 2em;
+    height: 70%;
+}
+
+.call-to-action1 {
+    padding: 0.5em .7em;
+}
+.content-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.features {
+    padding: 2em;
+}
+
+.more-copy,
+.call-to-action2 {
+    padding: 1em;
+}
+
+.more-copy {
+    width: 100%;
+}
+
+.call-to-action2 {
+    width: 41%;
+}
+
+.col.more-copy+.col.call-to-action2{
+    margin-left: .8em;
+}
