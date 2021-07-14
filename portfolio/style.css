@@ -165,34 +165,118 @@ textarea {
     text-align      : center;
     background-color: #5221e6;
 }
+
 section#clint-logo {
-    min-width: 100vw;
-    height: auto;
+    min-width : 100vw;
+    height    : auto;
     background: #000;
 }
+
 section#clint-logo .clint-logo {
-    width: 144vw;
-    height: 140px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    width     : 144vw;
+    height    : 140px;
+    display   : -webkit-box;
+    display   : -ms-flexbox;
+    display   : flex;
     background: #000;
-    position: relative;
+    position  : relative;
 }
+
 section#clint-logo .clint-logo div {
-    width: 50vw;
-    padding: 50px 0;
+    width            : 50vw;
+    padding          : 50px 0;
+    display          : -webkit-box;
+    display          : -ms-flexbox;
+    display          : flex;
+    -webkit-box-align: center;
+    -ms-flex-align   : center;
+    align-items      : center;
+    -webkit-box-pack : center;
+    -ms-flex-pack    : center;
+    justify-content  : center;
+    border           : 1px solid rgba(51, 51, 51, 0.6);
+}
+
+footer {
+    width                : 100%;
+    height               : 422px;
+    padding              : 80px 72px;
+    background-color     : #181823;
+    display              : -webkit-box;
+    display              : -ms-flexbox;
+    display              : flex;
+    -webkit-box-orient   : vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction   : column;
+    flex-direction       : column;
+}
+
+footer .links {
+    width  : 100%;
+    height : 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    border: 1px solid rgba(51, 51, 51, 0.6);
 }
+
+footer .links .social-links {
+    width       : 55%;
+    height      : 100%;
+    margin-right: 20px;
+}
+
+
+
+footer .navigation-links {
+    display: inline-block;
+    width  : 40%;
+}
+
+footer .links .navigation-links {
+    width : 45%;
+    height: 100%;
+}
+
+footer .links .social-links img {
+    padding-right: 10px;
+}
+
+footer .links .navigation-links ul {
+    width                : 100%;
+    height               : 100%;
+    display              : -webkit-box;
+    display              : -ms-flexbox;
+    display              : flex;
+    -webkit-box-align    : center;
+    -ms-flex-align       : center;
+    align-items          : center;
+    -ms-flex-wrap        : wrap;
+    flex-wrap            : wrap;
+    -webkit-box-orient   : vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction   : column;
+    flex-direction       : column;
+    -webkit-box-align    : start;
+    -ms-flex-align       : start;
+    align-items          : flex-start;
+}
+
+footer .links .navigation-links ul li {
+    list-style: none;
+    padding   : 16px;
+}
+
+footer .links .navigation-links ul li a {
+    color          : #fff;
+    text-decoration: none;
+}
+
+footer p {
+    width     : 100%;
+    color     : #8491a0;
+    margin-top: 20px;
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size  : 40px;
@@ -203,11 +287,11 @@ section#clint-logo .clint-logo div {
         margin-left: auto;
         margin-top : 0px !important;
     }
-    
+
     .bg-transparent {
         height: 90vh;
     }
-    
+
     .main>div {
         margin: 0px 30px;
     }
